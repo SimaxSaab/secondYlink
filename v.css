@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #000;
+  font-family: 'Noto Sans', sans-serif;
+  position: relative;
+  color: #fff;
+}
+
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-logo {
+  width: 25px;
+}
+.info {
+  color: #fff;
+  font-size: 10px;
+  padding-bottom: 15px;
+  text-decoration: none;
+}
+
+.wrapper-widget {
+  background:orange;
+  margin: 30px auto 0;
+  width: 320px;
+  /*height: 100vh;*/
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.logo {
+  border: 2px #000 solid;
+  border-radius: 50%;
+
+  height: 108px;
+  /*text-align: center;*/
+  width: 108px;
+  display: block;
+  position: absolute;
+  left:50%;
+  top: 30px;
+  margin-left: -56px;
+}
+
+h2 {
+  position: relative;
+  display: block;
+  padding-top: 180px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #fff;
+  font-size: 27px;
+
+}
+
+.wrapper-order {
+  margin: 30px auto;
+  width: 320px;
+}
+
+.btn-order {
+  border-radius: 8px;
+  background: green;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 37.54px;
+  width: 320px;
+}
+
+.wrapper-contacts {
+  background:orange;
+  margin: 30px auto 0;
+  width: 320px;
+  /*height: 100vh;*/
+  border-radius: 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 15px;
+  color: #fff;
+}
+
+hr {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 90%;
+}
+
+.contacts {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+
+.content-viber,.content-phone,.content-telegram {
+  width: 66px;
+  height: 66px;
+}
+
+.contact-background-color {
+  fill: #694dce;
+}
+
+.contact-color1 {
+  fill: #fff;
+}
+
+.contact-background-color1 {
+  fill: #34d951;
+}
+
+.contact-background-color2 {
+fill: #4dd0e1;
+}
+
+.contact-color2 {
+  fill: #c8daea;
+}
+
+.contact-color3 {
+  fill: #a9c9dd;
+}
+
+.contact-color4 {
+  fill: #eff7fc;
+}
