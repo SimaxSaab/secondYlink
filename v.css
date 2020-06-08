@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #000;
+  background: linear-gradient(to top, #EECFBA 0%, #C5DDE8 100%) fixed;
   font-family: 'Noto Sans', sans-serif;
   position: relative;
   color: #fff;
@@ -42,7 +42,7 @@ body {
 }
 
 .wrapper-widget {
-  background:orange;
+  background: rgba(208,153,188,0.5);
   margin: 30px auto 0;
   width: 320px;
   border-radius: 8px;
@@ -51,8 +51,8 @@ body {
 }
 
 .logo {
-  border: 2px #000 solid;
-  border-radius: 50%;
+  border: 2px #fff solid;
+  border-radius: 8px;
   height: 108px;
   width: 108px;
   position: absolute;
@@ -64,9 +64,17 @@ body {
 h2 {
   padding-top: 180px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   color: #fff;
   font-size: 27px;
+}
+
+.wrapper-widget>p {
+  text-align: center;
+}
+
+.wrapper-widget>p:last-child {
+  padding-bottom: 30px;
 }
 
 .wrapper-order {
@@ -76,15 +84,15 @@ h2 {
 
 .btn-order {
   border-radius: 8px;
-  background: green;
+  background: rgba(27, 94, 32, 0.6);
   text-decoration: none;
   color: #fff;
   padding: 20px 37.54px;
   width: 320px;
 }
 
-.wrapper-contacts {
-  background:orange;
+.wrapper-contacts,.wrapper-socials {
+  background: rgba(208,153,188,0.5);
   margin: 30px auto 0;
   width: 320px;
   border-radius: 8px;
@@ -142,4 +150,65 @@ fill: #4dd0e1;
 
 .contact-color4 {
   fill: #eff7fc;
+}
+
+.wrapper-socials {
+  margin: 10px auto 0;
+}
+
+.content-social {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid #f00;
+  border-radius: 20px;
+  padding: 6px 12px;
+  width: 200px;
+  text-decoration: none;
+}
+
+.content-youtube>a {
+  border: 2px solid #f00;
+  color: #f00;
+}
+.content-instagram>a {
+  border: 2px solid #e4405f;
+  color: #e4405f;
+}
+.content-facebook>a {
+  border: 2px solid #3b5999;
+  color: #3b5999;
+}
+
+.text {
+  padding-left: 6px;
+}
+
+.content-facebook {
+  margin-bottom: 15px;
+}
+
+.social-img {
+  display: block;
+  height: 21px;
+  width: 21px;
+}
+
+.social-button-color1 {
+  fill: #f00;
+}
+
+.social-button-color2 {
+  fill: #e4405f;
+}
+
+.social-button-color3 {
+  fill: #3b5999;;
 }
