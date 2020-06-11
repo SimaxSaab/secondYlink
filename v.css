@@ -4,7 +4,10 @@
 }
 
 body {
-  background: linear-gradient(to top, #EECFBA 0%, #C5DDE8 100%) fixed;
+  /*background: linear-gradient(to top, #EECFBA 0%, #C5DDE8 100%) fixed;*/
+  background: url(img/bck.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   font-family: 'Noto Sans', sans-serif;
   position: relative;
   color: #fff;
