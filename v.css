@@ -45,7 +45,7 @@ body {
 }
 
 .wrapper-widget {
-  background: rgba(208,153,188,0.5);
+  background: rgba(208,153,188,0.9);
   margin: 30px auto 0;
   width: 320px;
   border-radius: 8px;
@@ -92,7 +92,7 @@ h2 {
   justify-content: center;
   border-radius: 8px;
   /*background:rgba(208,153,188,0.5);*/
-  background:rgba(52,217,81,0.5);
+  background:rgba(52,217,81,0.9);
   text-decoration: none;
   color: #fff;
   padding: 20px 3px;
@@ -101,7 +101,7 @@ h2 {
 }
 
 .wrapper-contacts,.wrapper-socials {
-  background: rgba(208,153,188,0.5);
+  background: rgba(208,153,188,0.9);
   margin: 10px auto 0;
   width: 320px;
   border-radius: 8px;
